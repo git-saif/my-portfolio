@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 
@@ -20,11 +19,11 @@ const Header = () => {
   }, []);
 
   const navLinks = [
-    { name: 'হোম', href: '#home' },
-    { name: 'আমার সম্পর্কে', href: '#about' },
-    { name: 'প্রজেক্টস', href: '#projects' },
-    { name: 'দক্ষতা', href: '#skills' },
-    { name: 'যোগাযোগ', href: '#contact' },
+    { name: 'Home', href: '#home' },
+    { name: 'About Me', href: '#about' },
+    { name: 'Projects', href: '#projects' },
+    { name: 'Skills', href: '#skills' },
+    { name: 'Contact', href: '#contact' },
   ];
 
   return (
@@ -35,7 +34,7 @@ const Header = () => {
     >
       <div className="container mx-auto flex justify-between items-center px-4">
         <a href="#home" className="text-xl md:text-2xl font-bold text-blue-600 font-heading">
-          পোর্টফোলিও
+          Portfolio
         </a>
 
         {/* Desktop Navigation */}
@@ -50,7 +49,7 @@ const Header = () => {
             </a>
           ))}
           <Button className="bg-blue-600 hover:bg-blue-700">
-            রেজুমে দেখুন
+            View Resume
           </Button>
         </nav>
 
@@ -89,7 +88,7 @@ const Header = () => {
               </a>
             ))}
             <Button className="bg-blue-600 hover:bg-blue-700 w-full">
-              রেজুমে দেখুন
+              View Resume
             </Button>
           </nav>
         </div>
