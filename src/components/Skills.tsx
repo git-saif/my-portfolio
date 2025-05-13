@@ -73,7 +73,7 @@ const Skills = () => {
                     <span className="font-medium">{skill.name}</span>
                     <span className="text-blue-600">{skill.percent}%</span>
                   </div>
-                  <Progress value={skill.percent} className="h-2 bg-gray-200" indicatorClassName="bg-blue-600" />
+                  <Progress value={skill.percent} className="h-2 bg-gray-200" />
                 </div>
               ))}
             </div>
