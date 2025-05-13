@@ -13,19 +13,21 @@ const Hero = () => {
       <div className="container mx-auto px-4 py-16 pt-24 lg:py-24 relative z-10">
         <div className="flex flex-col lg:flex-row items-center">
           <div className="w-full lg:w-1/2 mb-12 lg:mb-0 animate-fade-in">
-            <span className="text-blue-600 font-medium mb-4 block">স্বাগতম 👋</span>
+            <span className="text-blue-600 font-medium mb-4 block">Salamun A'laik! This is</span>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight font-heading">
-              আমি একজন <span className="gradient-text">ওয়েব ডেভেলপার</span> এবং ডিজাইনার
+              MD Saiful Islam 
+{/*               <span className="gradient-text">ওয়েব ডেভেলপার</span> এবং ডিজাইনার */}
             </h1>
+            <h3> I am a Full Stack Web Developer</h3>
             <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-              আমি ক্রিয়েটিভ ওয়েব সলিউশন তৈরি করতে প্রতিশ্রুতিবদ্ধ। আধুনিক টেকনোলজি ব্যবহার করে আমি সুন্দর এবং দক্ষ ওয়েব এক্সপেরিয়েন্স তৈরি করি।
+             I am Specialized in PHP, MySQL & Laravel with Proficient in creating responsive and dynamic web applications based on user needs using a combination of technologies including JavaScript and Bootstrap.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button className="bg-blue-600 hover:bg-blue-700 text-lg px-8 py-6" size="lg">
-                প্রজেক্টস দেখুন
+                View Projects
               </Button>
               <Button variant="outline" className="border-blue-600 text-blue-600 hover:bg-blue-50 text-lg px-8 py-6" size="lg">
-                যোগাযোগ করুন
+                Contact Me
               </Button>
             </div>
           </div>
